@@ -1,0 +1,3 @@
+We designed a system for wirelessly controlling relays and monitoring current.  This is used for a home load simulation.  By wirelessly turning relays on and off by sending commands from a PC to a microcontroller we can change the total load (current) to our simulated home.  For wireless communication, we used XBee Series 2 Zigbee RF modules.  One of these modules was connected to a microcontroller and the home load simulation, while another was connected to the PC, which was used for collecting and displaying data as well as for relay monitoring and control.
+
+This project is the PC-side Java code.
